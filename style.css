@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 /* ===================== Header area start ================= */
 .top-banner{
     background-image: url(.//images/top-banner.png);
@@ -58,7 +59,7 @@ div .my-bg{
     margin-bottom: 20px;
 }
 .card-title{
-    margin-left: 95px;
+    margin-left: 70px;
 }
 .card-1{
     width: 40%;
