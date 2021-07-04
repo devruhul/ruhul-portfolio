@@ -47,6 +47,10 @@ div .my-bg{
     color: white;
     font-weight: 700;
 }
+.hero-btn:hover{
+    background-image: linear-gradient( blue, cyan);
+    color: black;
+}
 /* ================Dream area start====================== */
 .dream-area{
     background-image: url(.//images//dream-bg.png);
