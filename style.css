@@ -81,12 +81,13 @@ div .my-bg{
     border-bottom: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+    margin-bottom: 20px;
 }
 .card-2{
     width: 40%;
     float: left;
-    margin: 5%;
-    padding-left: 2%;
+    margin: 5% ;
+    padding: 0px 3%;
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
@@ -96,6 +97,7 @@ div .my-bg{
     border-bottom: 7px solid;
     border-image: linear-gradient(lightsalmon, orange);
     border-image-slice: 1;
+    margin-bottom: 20px;
 }
 footer p{
     text-align: center;
