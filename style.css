@@ -6,8 +6,14 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* ===================== Header area start ================= */
+.top-banner{
+    background-image: url(.//images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
 h1{
-    font-size: 50px;
+    font-size: 45px;
     margin: 20px 0px;
 }
 h3{
@@ -15,6 +21,7 @@ h3{
 }
 span{
     color: orange;
+    margin-bottom: 10px;
 }
 .pera{
     margin-bottom: 15px;
@@ -38,4 +45,61 @@ div .my-bg{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+/* ================Dream area start====================== */
+.dream-area{
+    background-image: url(.//images//dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.card-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.card-title{
+    margin-left: 95px;
+}
+.card-1{
+    width: 40%;
+    float: left;
+    margin: 5% ;
+    padding: 20px 3%;
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, orange);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 45px gray;
+}
+.card1-title{
+    font-size: 35px;
+}
+.card1-title span{
+    font-size: 20px;
+}
+.card-1:hover{
+    border-bottom: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.card-2{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding-left: 2%;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 45px gray;
+}
+.card-2:hover{
+    border-bottom: 7px solid;
+    border-image: linear-gradient(lightsalmon, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer p span{
+    font-size: 20px;
 }
