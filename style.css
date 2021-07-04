@@ -65,7 +65,7 @@ div .my-bg{
     width: 40%;
     float: left;
     margin: 5% ;
-    padding: 20px 3%;
+    padding: 0px 3%;
     border-left: 7px solid;
     border-image: linear-gradient(lightsalmon, orange);
     border-image-slice: 1;
