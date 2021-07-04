@@ -13,6 +13,11 @@ body{
     background-repeat: no-repeat;
     
 }
+img{
+    width: 100%;
+    height: auto;
+  
+}
 h1{
     font-size: 45px;
     margin: 20px 0px;
