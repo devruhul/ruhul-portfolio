@@ -1,117 +1,113 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 /* ===================== Header area start ================= */
-.top-banner{
-    background-image: url(.//images/top-banner.png);
-    background-repeat: no-repeat;
-    
+.top-banner {
+  background-image: url(.//images/top-banner.png);
+  background-repeat: no-repeat;
 }
-img{
-    width: 100%;
-    height: auto;
-  
+img {
+  width: 100%;
+  height: auto;
 }
-h1{
-    font-size: 45px;
-    margin: 20px 0px;
+h1 {
+  font-size: 45px;
+  margin: 20px 0px;
 }
-h3{
-    margin-bottom: 20px;
+h3 {
+  margin-bottom: 20px;
 }
-span{
-    color: orange;
-    margin-bottom: 10px;
+span {
+  color: orange;
+  margin-bottom: 10px;
 }
-.pera{
-    margin-bottom: 15px;
+.pera {
+  margin-bottom: 15px;
 }
-.container{
-    display: flex;
-    padding: 30px;
-   
+.container {
+  display: flex;
+  padding: 30px;
 }
-.half-width{
-    width: 50%;
-    margin: 10px 20px;
+.half-width {
+  width: 50%;
+  margin: 10px 20px;
 }
-div .my-bg{
-    width: 80%;
+div .my-bg {
+  width: 80%;
 }
-.hero-btn{
-    text-decoration: none;
-    background-image: linear-gradient( lightsalmon, tomato);
-    padding: 10px 30px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+.hero-btn {
+  text-decoration: none;
+  background-image: linear-gradient(lightsalmon, tomato);
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
-.hero-btn:hover{
-    background-image: linear-gradient( blue, cyan);
-    color: black;
+.hero-btn:hover {
+  background-image: linear-gradient(blue, cyan);
+  color: white;
 }
 /* ================Dream area start====================== */
-.dream-area{
-    background-image: url(.//images//dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    
+.dream-area {
+  background-image: url(.//images//dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
-.card-item{
-    display: flex;
-    margin-bottom: 20px;
+.card-item {
+  display: flex;
+  margin-bottom: 20px;
 }
-.card-title{
-    margin-left: 70px;
+.card-title {
+  margin-left: 70px;
 }
-.card-1{
-    width: 40%;
-    float: left;
-    margin: 5% ;
-    padding: 0px 3%;
-    border-left: 7px solid;
-    border-image: linear-gradient(lightsalmon, orange);
-    border-image-slice: 1;
-    box-shadow: 10px 10px 45px gray;
+.card-1 {
+  width: 40%;
+  float: left;
+  margin: 5%;
+  padding: 0px 3%;
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, orange);
+  border-image-slice: 1;
+  box-shadow: 10px 10px 45px gray;
 }
-.card1-title{
-    font-size: 35px;
+.card1-title {
+  font-size: 35px;
 }
-.card1-title span{
-    font-size: 20px;
+.card1-title span {
+  font-size: 20px;
 }
-.card-1:hover{
-    border-bottom: 7px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
-    margin-bottom: 20px;
+.card-1:hover {
+  border-bottom: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  margin-bottom: 20px;
 }
-.card-2{
-    width: 40%;
-    float: left;
-    margin: 5% ;
-    padding: 0px 3%;
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
-    box-shadow: 10px 10px 45px gray;
+.card-2 {
+  width: 40%;
+  float: left;
+  margin: 5%;
+  padding: 0px 3%;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  box-shadow: 10px 10px 45px gray;
 }
-.card-2:hover{
-    border-bottom: 7px solid;
-    border-image: linear-gradient(lightsalmon, orange);
-    border-image-slice: 1;
-    margin-bottom: 20px;
+.card-2:hover {
+  border-bottom: 7px solid;
+  border-image: linear-gradient(lightsalmon, orange);
+  border-image-slice: 1;
+  margin-bottom: 20px;
 }
-footer p{
-    text-align: center;
-    margin-bottom: 20px;
+footer p {
+  text-align: center;
+  margin-bottom: 20px;
 }
-footer p span{
-    font-size: 20px;
+footer p span {
+  font-size: 20px;
 }
